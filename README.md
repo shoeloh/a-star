@@ -30,10 +30,10 @@ is modified and should be placed in:
 aima.gui.applications.search.map  
 
 3-6:  
-HW2P12EvaluationFunction.java  
-HW2P12Search.java  
-HW2P12EvaluationFunction2.java  
-HW2P12Search2.java  
+NewEvaluationFunction.java  
+NewSearch.java  
+NewEvaluationFunction2.java  
+NewSearch2.java  
 are new and should be placed in:  
 aima.core.search.informed  
 
