@@ -1,0 +1,63 @@
+﻿A-star search project results  
+Shane Zabel  
+
+Problem 1:
+A* search algorithm on the Romania Map route-finding problem with SLD heuristic. Oradea to Bucharest:  
+
+What route was found:  
+CurrentLocation=In(Oradea), Goal=In(Bucharest)  
+Action[name==moveTo, location==Sibiu]  
+Action[name==moveTo, location==RimnicuVilcea]  
+Action[name==moveTo, location==Pitesti]  
+Action[name==moveTo, location==Bucharest]  
+
+How many nodes expanded:  
+METRIC[nodesExpanded]=5  
+
+What was path cost:  
+METRIC[pathCost]=429.0  
+
+Problem 2:  
+Problem 1. with a new evaluation function f'=(1-w)g+wh where w=0.25  
+
+What route was found:  
+CurrentLocation=In(Oradea), Goal=In(Bucharest)  
+Action[name==moveTo, location==Sibiu]  
+Action[name==moveTo, location==Fagaras]  
+Action[name==moveTo, location==Bucharest]  
+
+How many nodes expanded:  
+METRIC[nodesExpanded]=3  
+
+What was path cost:  
+METRIC[pathCost]=461.0  
+
+Problem 1. with a new evaluation function f'=(1-w)g+wh where w=0.75  
+
+What route was found:  
+CurrentLocation=In(Oradea), Goal=In(Bucharest)  
+Action[name==moveTo, location==Sibiu]  
+Action[name==moveTo, location==Fagaras]  
+Action[name==moveTo, location==Bucharest]  
+
+How many nodes expanded:  
+METRIC[nodesExpanded]=3  
+
+What was path cost:  
+METRIC[pathCost]=461.0  
+
+Problem 3:  
+Problem 1. with a new under-estimating function h'=sqrt(SLD)  
+
+What route was found:  
+CurrentLocation=In(Oradea), Goal=In(Bucharest)  
+Action[name==moveTo, location==Sibiu]  
+Action[name==moveTo, location==RimnicuVilcea]  
+Action[name==moveTo, location==Pitesti]  
+Action[name==moveTo, location==Bucharest]  
+
+How many nodes expanded:  
+METRIC[nodesExpanded]=10  
+
+What was path cost:  
+METRIC[pathCost]=429.0  
